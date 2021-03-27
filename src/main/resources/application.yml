@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: root
+    password:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/fabricio_gay
+  jpa:
+    hibernate.ddl-auto: create
