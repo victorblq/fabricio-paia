@@ -3,9 +3,7 @@ package com.teste.teste.controller;
 import com.teste.teste.entity.Pessoa;
 import com.teste.teste.repository.PessoaRepository;
 import com.teste.teste.service.PessoaService;
-import com.teste.teste.service.PessoaServiceCliente1Impl;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
